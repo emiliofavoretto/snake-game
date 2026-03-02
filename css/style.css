@@ -19,4 +19,6 @@ body {
 
 canvas {
     background-color: black;
+    border: solid #e6e612 1px;
+    box-shadow: 0 0 10px #eecc0e, 0 0 20px #ff00ff, 0 0 30px #f7e602, 0 0 40px #ff00ff, 0 0 10px #ff00ff;
 }
