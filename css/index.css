@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
 }
 
 .botao {
@@ -12,7 +20,7 @@
     color: black;
     border: solid #e6e612 5px;
     box-shadow: 0 0 10px #eecc0e, 0 0 20px #ff00ff, 0 0 30px #f7e602, 0 0 40px #ff00ff, 0 0 10px #ff00ff;
-    font-size: x-small;
+    font-size: x-large;
     text-decoration: none;
     border-radius: 5px;
     display: flex;
