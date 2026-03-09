@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.botao {
+    width: 30vh;
+    height: 15vh;
+    background-color: aliceblue;
+    color: black;
+    border: solid #e6e612 5px;
+    box-shadow: 0 0 10px #eecc0e, 0 0 20px #ff00ff, 0 0 30px #f7e602, 0 0 40px #ff00ff, 0 0 10px #ff00ff;
+    font-size: x-small;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
