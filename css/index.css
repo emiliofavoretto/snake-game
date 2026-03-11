@@ -1,16 +1,41 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40vh;
+    font-family: "Jersey 10", sans-serif;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, #ff00ff60, black, black, #ff00ff60);
+}
+
+.title {
+    font-family: "Jersey 10", sans-serif;
+    background: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+    color: aliceblue;
 }
 
 .botao {
@@ -20,7 +45,7 @@ body{
     color: black;
     border: solid #e6e612 5px;
     box-shadow: 0 0 10px #eecc0e, 0 0 20px #ff00ff, 0 0 30px #f7e602, 0 0 40px #ff00ff, 0 0 10px #ff00ff;
-    font-size: x-large;
+    font-size: 30px;
     text-decoration: none;
     border-radius: 5px;
     display: flex;
